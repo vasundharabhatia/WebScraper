@@ -1,0 +1,15 @@
+#### Web Scraping:
+>Using Python VERSION:3.4.3, IDLE IDE VERSION:3.4.3
+>The python program saves the scraped data into a file with a name output.txt.
+>Before running python enter appropriate file path as below where you want to save the scraped data:
+f = io.open('/Users/vasundharabhatia/Desktop/output.txt', 'w',encoding='utf8')
+
+#### Web Page:
+>NetbBeans IDE 8.0
+>JSP Servlet
+>View:list.jsp
+>Model: UniversityModel.java
+>Controller: University.java
+>Please enter the same filepath for output.txt as in python in University.java as below:
+br = new BufferedReader(new FileReader("/Users/vasundharabhatia/Desktop/output.txt")); 
+>Used JSON jar to convert list to json to send in ajax response:java-json-schema.jar. This needs to be added under Library Folder of the project
